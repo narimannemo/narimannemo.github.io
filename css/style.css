@@ -142,13 +142,14 @@ min-height: 20%;
 
 }
 .sp-container h2 {
+	font-family: Roboto;
 	position: absolute;
-	top: 10%;
+	top: 30%;
 	left: 0;
-	line-height: 100px;
-	height: 90px;
+	line-height: 50px;
+	height: 40px;
 	margin-top: -50px;
-	font-size: 90px;
+	font-size: 40px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -214,7 +215,7 @@ min-height: 20%;
 	.sp-circle-link {
 		font-family:'Bangers', cursive;
 		position: absolute;
-		left: 50%;
+		left: 25%;
 		top: 25%;
 		color: #2A787C;
 		font-size: 100px;
@@ -233,6 +234,12 @@ min-height: 20%;
 	color: #fff;
 	}
 	/**/
+	.shadomation{
+				-webkit-animation: shadomation 1s linear 17s backwards infinite;
+		-moz-animation: shadomation 1s linear 17s backwards infinite;
+		-ms-animation: shadomation 1s linear 17s backwards infinite;
+		animation: shadomation 1s linear 17s backwards infinite;
+	}
 
 	@-webkit-keyframes blurFadeInOut {
 		0% {
@@ -410,6 +417,78 @@ min-height: 20%;
 
 
 
+
+
+
+@-webkit-keyframes shadomation {
+		0% {
+			opacity: 0;
+			/*text-shadow: 0px 0px 40px #2A787C;*/
+		}
+		25% {
+			opacity: 0.5;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}
+		50% {
+			opacity: 1;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}				
+		75% {
+			opacity: 0.5;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}
+		100% {
+			opacity: 0;
+			/*text-shadow: 0px 0px 50px #2A787C;*/
+
+		}
+	}
+@keyframes shadomation {
+		0% {
+			opacity: 0;
+			/*text-shadow: 0px 0px 40px #2A787C;*/
+		}
+		25% {
+			opacity: 0.5;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}
+		50% {
+			opacity: 1;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}				
+		75% {
+			opacity: 0.5;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}
+		100% {
+			opacity: 0;
+			/*text-shadow: 0px 0px 50px #2A787C;*/
+
+		}
+	}
+@-moz-keyframes shadomation {
+		0% {
+			opacity: 0;
+			/*text-shadow: 0px 0px 40px #2A787C;*/
+		}
+		25% {
+			opacity: 0.5;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}
+		50% {
+			opacity: 1;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}				
+		75% {
+			opacity: 0.5;
+			/*text-shadow: 0px 0px 1px #2A787C;*/
+		}
+		100% {
+			opacity: 0;
+			/*text-shadow: 0px 0px 50px #2A787C;*/
+
+		}
+	}
 
 /*-----------------------------------------------------------------------------*/
 .cards-wrapper {
