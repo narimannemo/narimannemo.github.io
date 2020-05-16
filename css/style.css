@@ -529,7 +529,7 @@ min-height: 20%;
   height: 88%;
 }
 .card-object.card-2 .front {
-  /*background: #222 url(../img/profile.jpg);*/
+  /*background: url('img/yek.png');*/
 }
 .face {
   color: #fff;
@@ -560,7 +560,8 @@ min-height: 20%;
   bottom: -1px;
   left: -1px;
   content: "";
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.1) 100%) no-repeat;
+  /*background: linear-gradient(45deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.1) 100%) no-repeat;*/
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.01) 100%) no-repeat;
   opacity: 0.7;
   z-index: 20;
   -webkit-transition: opacity 0.2s ease;
