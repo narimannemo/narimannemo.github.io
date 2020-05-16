@@ -1,3 +1,9 @@
+@font-face {
+font-family: 'IranNastaliq';
+src: url('http://fontonline.ir/fonts/IranNastaliq.eot?#') format('eot'),
+url('../fonts/IranNastaliq.ttf') format('truetype'),
+url('http://fontonline.ir/fonts/IranNastaliq.woff') format('woff');
+}
 body{
 	font-family: 'Cinzel', serif;
 }
@@ -142,7 +148,7 @@ min-height: 20%;
 
 }
 .sp-container h2 {
-	font-family: Roboto;
+	font-family: 'Jost', sans-serif;
 	position: absolute;
 	top: 30%;
 	left: 0;
@@ -602,6 +608,7 @@ min-height: 20%;
   transition: transform 0.28s ease, -webkit-transform 0.28s ease;
 }
 .face.front .title-wrapper .title {
+	color: #000;
   position: relative;
   width: 100%;
   text-transform: uppercase;
@@ -617,7 +624,7 @@ min-height: 20%;
   width: 100%;
   height: 1px;
   content: "";
-  background-color: #fff;
+  background-color: #000;
   opacity: 0.5;
   -webkit-transform: scale(0);
           transform: scale(0);
@@ -627,7 +634,9 @@ min-height: 20%;
   transition: transform 0.15s, -webkit-transform 0.15s;
 }
 .face.front .title-wrapper .subtitle {
-  font-size: 0.9vw;
+	font-family: IranNastaliq,'IranNastaliq',tahoma;
+ color: #000;
+  font-size: 1.5rem;
   line-height: 1;
   letter-spacing: 1px;
   text-transform: uppercase;
