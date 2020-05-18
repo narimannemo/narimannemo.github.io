@@ -38,6 +38,7 @@ body {
 }
 
 .fig .bigi {
+
  padding: 2%;
  background: #f8f8f8;
  box-shadow:
@@ -49,14 +50,6 @@ body {
   inset 0 .2em .1em #fff;
 }
 
-img {
- background: #fff;
- position: relative;
- display: block;
- width: 88%;
- height: auto;
- padding: 6%;
- box-shadow: inset 0px .3em .1em rgba(0,0,0,.2); }
 .wrapper{
  width: auto;
  position: relative;
