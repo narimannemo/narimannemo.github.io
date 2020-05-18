@@ -6,7 +6,9 @@ url('http://fontonline.ir/fonts/IranNastaliq.woff') format('woff');
 }
 body {
   background: #f6f5ee;
-   font-family: 'Cinzel', serif;
+  font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+   /*font-family: 'Cinzel', serif;*/
 }
 
 
@@ -139,6 +141,7 @@ body {
   transition: transform 0.28s ease, -webkit-transform 0.28s ease;
 }
 .face.front .title-wrapper .title {
+ font-family: 'Cinzel', serif;	
  color: #000;
   position: relative;
   width: 100%;
@@ -200,4 +203,16 @@ body {
           transition-delay: 0.2s;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
+}
+/*--------------------Details Sections --------------------------------*/
+.back-btn {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #555;
+}
+
+@media(min-width: 1200px){
+	#details{
+		padding-top: 5%;
+	}
 }
