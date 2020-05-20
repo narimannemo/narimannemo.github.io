@@ -245,3 +245,6 @@ p{
 p a{
 	font-style: italic;
 }
+.btn:hover{
+	color: #1c99a6;
+}
