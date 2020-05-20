@@ -11,6 +11,13 @@ font-family: 'Roboto', sans-serif;
    /*font-family: 'Cinzel', serif;*/
 }
 
+h1, h2, h3, h4{
+	  font-family: 'Lobster', cursive;
+	  color: #444;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
 
 .fig {
  display: block;
@@ -214,5 +221,20 @@ font-family: 'Roboto', sans-serif;
 @media(min-width: 1200px){
 	#details{
 		padding-top: 5%;
+	}
+}
+
+.btn{
+	color: #444;
+}
+.copyright{
+	color: #444;
+	float: right; 
+	bottom: 0;
+}
+@media(min-width: 1200px){
+	.copyright{
+	position: fixed;
+	right: 10px;
 	}
 }
