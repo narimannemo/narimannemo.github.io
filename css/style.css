@@ -65,6 +65,8 @@ p{
  float: none;
  padding-top: 161%;
  box-shadow: inset 0px .3em .1em rgba(0,0,0,.2);
+   cursor:pointer;
+
 } 
  .card{
   color: #FFF;
@@ -216,6 +218,7 @@ p{
   font-family: 'Lobster', cursive;
   text-align: center;
   color: #555;
+  cursor:pointer;
 }
 
 @media(min-width: 1200px){
@@ -237,4 +240,8 @@ p{
 	position: fixed;
 	right: 10px;
 	}
+}
+
+p a{
+	font-style: italic;
 }

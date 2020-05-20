@@ -90,12 +90,12 @@
 				<div id="sec-about" style="display: none;">
 					<h2>Who Am I?</h2>
 					<h4>-Nemo</h4>
-					<p>I'm Nariman Aryan, a research assistant at INL at Sharif University of Technology under supervision of Dr. Mahdi Jafari Siavoshani. Also, I'm about to graduate in Electrical Engineering at Amirkabir University of Technology. I'm intersted in statistical data analysis and designing machine learning models. Currently, my research focuses on Interpretability of DNN models which is my Bachelor's thesis under supervision of Prof. Mohammad Bagher Menhaj and Dr. Mahdi Jafari Siavoshani, as well . I enjoy designing and building interactive websites and cool web applications. </p>
+					<p>I'm Nariman Aryan, a research assistant at <a href="https://https://inl-lab.net/">INL</a> at <a href="http://www.en.sharif.edu/">Sharif University of Technology</a> under supervision of <a href="https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en">Dr. Mahdi Jafari Siavoshani</a>. Also, I'm about to graduate in Electrical Engineering at <a href="https://aut.ac.ir/en">Amirkabir University of Technology</a>. I'm intersted in statistical data analysis and designing machine learning models. Currently, my research focuses on Interpretability of DNN models which is my Bachelor's thesis under supervision of <a href="https://scholar.google.de/citations?user=0EN-JbQAAAAJ&hl=en&oi=ao">Prof. Mohammad Bagher Menhaj</a> and <a href="https://scholar.google.com/citations?user=O1iciXoAAAAJ&hl=en">Dr. Mahdi Jafari Siavoshani</a>, as well . I enjoy designing and building interactive websites and cool web applications. </p>
 					<p> There are lots of thing I don't know and for all of them I have a motto:</p>
 					<div class="d-flex justify-content-center">
 					<div class="" style="display: inline-block;">
 					<h4>" Wherever you are, I will look for you, I will find you and I will learn you."</h4>
-					<cite style="float: right;">-inspired from Taken</cite> 
+					<cite style="float: right;">-inspired from <a href="https://www.youtube.com/watch?v=jZOywn1qArI">Taken</a></cite> 
 				</div>
 				</div>
 					<div class="social" >
@@ -114,13 +114,14 @@
 							<small class="copyright">Copyright &copy; 2020, Nariman Aryan.</small>
 
 		<script type="text/javascript">
+
 function explore(field) {
 			var colid = $(field).parents(".col-lg-4").attr("id");
             $(".container-fluid").find(".col-lg-4").css("display","none");	
             $("#"+colid).css("display","block");
             $("#"+colid).find(".wrapper").attr("onclick","back()")
             $("#details").css("display","block");
-            $("#details").append("<h2 class='back-btn' onclick='back()'>back</h2>");
+            $("#details").append("<div style='text-align:center;'><h2 style='display:inline-block;' class='back-btn' onclick='back()'>back</h2></div>");
             if (colid=="col-about"){
             	$("#sec-about").css("display","block");
             	$("#sec-portfolio").css("display","none");
@@ -142,8 +143,8 @@ function back() {
 	        $("#col-blog").css("display","block");
 	        $(".back-btn").css("display","none");
             $(".container-fluid").find(".wrapper").attr("onclick","explore(this)");
+			}  
 
-}  
 		</script>
 <script type="text/javascript">
 	var canvasDiv = document.getElementById('particle-canvas');
