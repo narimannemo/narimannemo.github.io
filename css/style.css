@@ -219,6 +219,7 @@ p{
   text-align: center;
   color: #555;
   cursor:pointer;
+  margin-top: 3rem;
 }
 
 @media(min-width: 1200px){
@@ -247,4 +248,140 @@ p a{
 }
 .btn:hover{
 	color: #1c99a6;
+}
+
+.platform{
+	position: absolute;
+	background-color: #fbfafa;
+	width: 100%;
+	height:1rem;
+	 box-shadow:
+0px 1em 3em 0em rgba(0,0,0,.4),
+ 0px 0em 1em 0em rgba(0,0,0,.3),
+  0px 3em 2em -1em rgba(0,0,0,.2),
+   0px 4em 1.5em -1em rgba(0,0,0,.15),
+    0px 2em 4em 0.5em rgba(0,0,0,.1);
+}
+@media(max-width: 1200px){
+	.platform{
+		width: 100%;
+	}
+}
+
+.fig-1 {
+ display: inline-block;
+ width: 10%;
+ transform: rotateX(25deg);
+ margin-left: 2%;
+ transform-origin: bottom;
+
+}
+@media(max-width: 1200px){
+ .fig-1{
+ width: 30%;
+ }
+}
+
+.fig-horizental{
+	width: 24%;
+
+}
+
+.fig-1 .bigi-1 {
+
+ background: #f8f8f8;
+ box-shadow:
+1em 1em 1em 0em rgba(0,0,0,.4), 
+2em 0em 2em -1em rgba(0,0,0,.3), 
+1em 0em 1em -1em rgba(0,0,0,.2), 
+1em 2em 1.5em -1em rgba(0,0,0,.15), 
+1em 0em 1em -0.5em rgba(0,0,0,.1),
+  inset 0 .2em .1em #fff;
+}
+
+
+.bigi-vertical{
+ padding: 4%;
+}
+
+.bigi-horizental{
+ padding: 4%;
+}
+
+.wrapper-1{
+ width: auto;
+ position: relative;
+ float: none;
+ padding-top: 161%;
+ box-shadow: inset 0px .3em .1em rgba(0,0,0,.2);
+   cursor:pointer;
+
+}
+
+.wrapper-horizental{
+ padding-top: 62.11%;	
+} 
+ .card-1{
+  color: #FFF;
+  display: block;
+  float: left;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+ }
+
+ .face-1 {
+  color: #fff;
+  text-decoration: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.face.front-1 {
+  z-index: 20;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/*.shelf{
+	float: left;
+}
+.shelf:nth-child(even){
+	float: right;
+}*/
+
+.frame-wrapper{
+	display: flex;
+			perspective: 80rem;
+	perspective-origin: 30%;
+}
+
+.row-shelves{
+	margin-top: 10%
+}
+
+.porto{
+	border: solid 2px #000;
+	margin-top: auto;
+	margin-left: 5%;
+	font-size: 5em;
+		 box-shadow:
+1em 1em 1em 0em rgba(0,0,0,.4), 
+2em 0em 2em -1em rgba(0,0,0,.3), 
+1em 0em 1em -1em rgba(0,0,0,.2), 
+1em 2em 1.5em -1em rgba(0,0,0,.15), 
+1em 0em 1em -0.5em rgba(0,0,0,.1),
+  inset 0 .2em .1em #fff;
 }
