@@ -26,6 +26,8 @@
 	<!-- ------------------JS------------------ -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
 	<script type="text/javascript" src="https://rawgit.com/JulianLaval/canvas-particle-network/master/particle-network.min.js"></script>	
+	<script type="text/javascript" src="js/jquery.fittext.JS"></script>	
+
 
 </head>
 <body>
@@ -114,8 +116,8 @@
 							</div>
 							<div class="col-lg-7 order-lg-1">
 								<div class="shelf">
-									<div class="frame-wrapper">
-										<div class="fig-1">
+									<div id="1st" class="frame-wrapper">
+<!-- 										<div class="fig-1">
 											<div class="bigi-1 bigi-vertical">
 												<div class="wrapper-1 wrapper-vertical">
 													<div class="card-1">
@@ -124,19 +126,20 @@
 													</div>
 												</div>
 											</div>
-										</div>
+										</div> -->
 										<div class="fig-1 fig-horizental">
 											<div class="bigi-1 bigi-horizental">
 												<div class="wrapper-1 wrapper-horizental">
 													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
+														<a class="face-1 front-1" style="background-image:url('img/dlex.png'); background-size: contain; background-position: 50% 50%; background-repeat: no-repeat; background-color: #EEE;" >
 														</a>
 													</div>
 												</div>
 											</div>
 										</div>
-										<i class="fa fa-github porto" style="font-size:48px;"></i>
-										<i class="fa fa-telegram porto" style="font-size:48px;"></i>
+<span class="icon-telegram porto"></span>
+<span class="icon-adobephotoshop porto"></span>
+<span class="icon-adobeillustrator porto"></span>
 									</div>
 									<div>					
 										<div class="platform"></div>
@@ -154,27 +157,15 @@
 							</div>
 							<div class="col-lg-7">
 								<div class="shelf">
-									<div class="frame-wrapper">
-										<div class="fig-1">
-											<div class="bigi-1 bigi-vertical">
-												<div class="wrapper-1 wrapper-vertical">
-													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fig-1 fig-horizental">
-											<div class="bigi-1 bigi-horizental">
-												<div class="wrapper-1 wrapper-horizental">
-													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
+									<div id="2nd" class="frame-wrapper">
+<span class="icon-wordpress porto"></span>
+<span class="icon-javascript porto"></span>
+<span class="icon-jquery porto"></span>
+<span class="icon-bootstrap porto"></span>
+<span class="icon-php porto"></span>
+
+
+
 									</div>
 									<div>					
 										<div class="platform"></div>
@@ -191,29 +182,13 @@
 							</div>
 							<div class="col-lg-7 order-lg-1">
 								<div class="shelf">
-									<div class="frame-wrapper">
-										<div class="fig-1">
-											<div class="bigi-1 bigi-vertical">
-												<div class="wrapper-1 wrapper-vertical">
-													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fig-1 fig-horizental">
-											<div class="bigi-1 bigi-horizental">
-												<div class="wrapper-1 wrapper-horizental">
-													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<i class="fa fa-github porto" style="font-size:48px;"></i>
-										<i class="fa fa-telegram porto" style="font-size:48px;"></i>
+									<div id="3rd" class="frame-wrapper six-items">
+										<span class="icon-github porto"></span>	
+										<span class="icon-python porto"></span>										
+										<span class="icon-flask porto"></span>
+										<span class="icon-javascript porto"></span>
+										<span class="icon-jquery porto"></span>
+										<span class="icon-arduino porto"></span>
 									</div>
 									<div>					
 										<div class="platform"></div>
@@ -231,27 +206,11 @@
 							</div>
 							<div class="col-lg-7">
 								<div class="shelf">
-									<div class="frame-wrapper">
-										<div class="fig-1">
-											<div class="bigi-1 bigi-vertical">
-												<div class="wrapper-1 wrapper-vertical">
-													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="fig-1 fig-horizental">
-											<div class="bigi-1 bigi-horizental">
-												<div class="wrapper-1 wrapper-horizental">
-													<div class="card-1">
-														<a class="face-1 front-1" style="background-image:url('img/khayyam3.png'); background-size: cover;" >
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
+									<div id="4th" class="frame-wrapper">
+										<span class="icon-github porto"></span>	
+										<span class="icon-javascript porto"></span>
+										<span class="icon-jquery porto"></span>
+										<span class="icon-arduino porto"></span>
 									</div>
 									<div>					
 										<div class="platform"></div>
@@ -274,6 +233,18 @@
 	<small class="copyright">Copyright &copy; 2020, Nariman Aryan.</small>
 
 	<script type="text/javascript">
+		window.onload = function() {
+		$("#sec-about").css("display","block");
+		$("#sec-portfolio").css("display","block");
+		$("#details").css("display","block");
+		jQuery('#1st').fitText(1);
+		jQuery('#2nd').fitText(1);
+		jQuery('#3rd').fitText(1);
+		jQuery('#4th').fitText(1);
+		$("#sec-blog").css("display","block"); 
+		$("#sec-about").css("display","none");
+		$("#sec-portfolio").css("display","none");
+		$("#sec-blog").css("display","none"); };
 
 		function explore(field) {
 			var colid = $(field).parents(".col-lg-4").attr("id");

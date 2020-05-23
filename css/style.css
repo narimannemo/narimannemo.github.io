@@ -253,14 +253,10 @@ p a{
 .platform{
 	position: absolute;
 	background-color: #fbfafa;
-	width: 100%;
+	width: 90%;
 	height:1rem;
 	 box-shadow:
-0px 1em 3em 0em rgba(0,0,0,.4),
- 0px 0em 1em 0em rgba(0,0,0,.3),
-  0px 3em 2em -1em rgba(0,0,0,.2),
-   0px 4em 1.5em -1em rgba(0,0,0,.15),
-    0px 2em 4em 0.5em rgba(0,0,0,.1);
+1em 1em 2em 0em rgba(0,0,0,.4), 1em 1em 1em 0em rgba(0,0,0,.3), 1em 1em 2em -1em rgba(0,0,0,.2), -3em 4em 1.5em -1em rgba(0,0,0,.15), 0px 2em 4em 0.5em rgba(0,0,0,.1);
 }
 @media(max-width: 1200px){
 	.platform{
@@ -289,14 +285,14 @@ p a{
 
 .fig-1 .bigi-1 {
 
- background: #f8f8f8;
+ background: #666;
  box-shadow:
 1em 1em 1em 0em rgba(0,0,0,.4), 
 2em 0em 2em -1em rgba(0,0,0,.3), 
 1em 0em 1em -1em rgba(0,0,0,.2), 
 1em 2em 1.5em -1em rgba(0,0,0,.15), 
 1em 0em 1em -0.5em rgba(0,0,0,.1),
-  inset 0 .2em .1em #fff;
+  inset 0 .2em .2em #000;
 }
 
 
@@ -365,7 +361,7 @@ p a{
 .frame-wrapper{
 	display: flex;
 			perspective: 80rem;
-	perspective-origin: 30%;
+	perspective-origin: 100% 100%;
 }
 
 .row-shelves{
@@ -373,15 +369,143 @@ p a{
 }
 
 .porto{
-	border: solid 2px #000;
 	margin-top: auto;
 	margin-left: 5%;
-	font-size: 5em;
-		 box-shadow:
-1em 1em 1em 0em rgba(0,0,0,.4), 
-2em 0em 2em -1em rgba(0,0,0,.3), 
-1em 0em 1em -1em rgba(0,0,0,.2), 
-1em 2em 1.5em -1em rgba(0,0,0,.15), 
-1em 0em 1em -0.5em rgba(0,0,0,.1),
-  inset 0 .2em .1em #fff;
+	transform: rotateX(25deg);
+	transform-origin: bottom;
+		 text-shadow: 
+0.2em 0.1em 0.2em rgba(0, 0, 0, .65),
+2em 0em 2em  rgba(0,0,0,.3), 
+1em 0em 1em  rgba(0,0,0,.2), 
+1em 2em 1.5em  rgba(0,0,0,.15), 
+1em 0em 1em  rgba(0,0,0,.1);
+}
+@media(max-width: 1200px){
+	.porto{
+		font-size: 12vw;
+		margin-right: 1vh;
+		margin-left: 0vh;
+	}
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?g9doyr');
+  src:  url('../fonts/icomoon.eot?g9doyr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?g9doyr') format('truetype'),
+    url('../fonts/icomoon.woff?g9doyr') format('woff'),
+    url('../fonts/icomoon.svg?g9doyr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telegram:before {
+  content: "\e902";
+  color: #00d0ff;
+    cursor: pointer;
+}
+.icon-adobeillustrator:before {
+  content: "\e903";
+  color: #ff7c00;
+}
+.icon-adobephotoshop:before {
+  content: "\e904";
+  color: #00c8ff;
+}
+.icon-bootstrap:before {
+  content: "\e905";
+  color: #563d7c;
+}
+.icon-csharp:before {
+  content: "\e906";
+  color: #239120;
+}
+.icon-flask:before {
+  content: "\e907";
+}
+.icon-github:before {
+  content: "\e908";
+  cursor: pointer;
+}
+.icon-jquery:before {
+  content: "\e900";
+  color: #0769ad;
+}
+.icon-keras:before {
+  content: "\e909";
+  color: #d00000;
+}
+.icon-latex:before {
+  content: "\e90a";
+  color: #008080;
+}
+.icon-mathworks:before {
+  content: "\e90b";
+  color: #0076a8;
+}
+.icon-node-dot-js:before {
+  content: "\e90c";
+  color: #393;
+}
+.icon-php:before {
+	border: solid 3px;
+  content: "\e90d";
+  color: #777bb4;
+  /*line-height: 50px;*/
+}
+.icon-python:before {
+  content: "\e90e";
+  color: #3776ab;
+}
+.icon-telegram1:before {
+  content: "\e90f";
+  color: #2ca5e0;
+  	border: solid 3px;
+  	/*border-radius: 100%;*/
+}
+.icon-tensorflow:before {
+  content: "\e910";
+  color: #ff6f00;
+}
+.icon-wordpress:before {
+  content: "\e901";
+  color: #21759b;
+}
+.icon-arduino:before {
+		border: solid 3px;
+	  /*line-height: 50px;*/
+  content: "\e911";
+  color: #00979d;
+}
+.icon-javascript:before {
+  content: "\e912";
+  color: #f7df1e;
+}
+@media(min-width: 1200px){
+		.six-items{
+	}
+	.six-items .icon-arduino:before{
+		/*line-height: 70px*/
+	}
+	.icon-arduino:before, .icon-php:before {
+		/*line-height: 85px;*/
+	}
 }
