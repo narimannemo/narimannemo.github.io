@@ -444,6 +444,7 @@ p a{
 .icon-github:before {
   content: "\e908";
   cursor: pointer;
+  color: #333;
 }
 .icon-jquery:before {
   content: "\e900";
