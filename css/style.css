@@ -360,8 +360,8 @@ p a{
 
 .frame-wrapper{
 	display: flex;
-			perspective: 80rem;
-	perspective-origin: 100% 100%;
+/*			perspective: 80rem;
+	perspective-origin: 100% 100%;*/
 }
 
 .row-shelves{
@@ -510,3 +510,10 @@ p a{
 		/*line-height: 85px;*/
 	}
 }
+
+
+
+@media(min-width: 990px){
+#sec-about{
+margin-right: 10%;
+}}
